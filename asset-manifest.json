@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/TheReliableCompany/static/css/main.93041847.css",
-    "main.js": "/TheReliableCompany/static/js/main.c3bd7ba6.js",
+    "main.css": "/TheReliableCompany/static/css/main.abd7e386.css",
+    "main.js": "/TheReliableCompany/static/js/main.9f7fa831.js",
     "static/js/787.1466b683.chunk.js": "/TheReliableCompany/static/js/787.1466b683.chunk.js",
     "static/media/banner.jpg": "/TheReliableCompany/static/media/banner.66df4360e8d242b4b409.jpg",
     "static/media/photo1.jpg": "/TheReliableCompany/static/media/photo1.66df4360e8d242b4b409.jpg",
     "static/media/photo2.jpg": "/TheReliableCompany/static/media/photo2.66df4360e8d242b4b409.jpg",
     "static/media/c2hd.png": "/TheReliableCompany/static/media/c2hd.721dfc3c94baa594b5c0.png",
     "index.html": "/TheReliableCompany/index.html",
-    "main.93041847.css.map": "/TheReliableCompany/static/css/main.93041847.css.map",
-    "main.c3bd7ba6.js.map": "/TheReliableCompany/static/js/main.c3bd7ba6.js.map",
+    "main.abd7e386.css.map": "/TheReliableCompany/static/css/main.abd7e386.css.map",
+    "main.9f7fa831.js.map": "/TheReliableCompany/static/js/main.9f7fa831.js.map",
     "787.1466b683.chunk.js.map": "/TheReliableCompany/static/js/787.1466b683.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93041847.css",
-    "static/js/main.c3bd7ba6.js"
+    "static/css/main.abd7e386.css",
+    "static/js/main.9f7fa831.js"
   ]
 }
