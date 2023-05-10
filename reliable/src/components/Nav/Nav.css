@@ -1,0 +1,41 @@
+header {
+  background: #fff;
+}
+
+.navbar-brand img {
+  height: 2.5em;
+}
+
+.nav-link {
+  font-size: 1em;
+  margin: 0 1em;
+}
+
+.btn {
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 1.25em;
+  color: #fff;
+  background-color: #0079d5;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005cb2;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 2em;
+  }
+
+  .nav-link {
+    font-size: 0.875em;
+    margin: 0 0.5em;
+  }
+
+  .btn {
+    font-size: 0.875em;
+    padding: 0.375em 0.75em;
+  }
+}

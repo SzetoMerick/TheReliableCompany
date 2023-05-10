@@ -1,97 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .banner {
   position: relative;
   text-align: center;
-  height: 55vh;
-  padding: 10% 5%;
-  margin-bottom: 400px;
+  padding: 5em 2.5em;
+  color: white;
 }
 
-.background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: -1;
-}
-
+.background-image,
 .background-tint {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(64, 64, 64, 0.5);
-  z-index:-1;
+  z-index: -1;
 }
 
-h1 {
-  color: white;
+.background-image {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-tint {
+  background-color: rgba(64, 64, 64, 0.5);
+}
+
+.banner-title {
+  font-size: 2.5em;
+}
+
+.banner-description {
+  font-size: 1.25em;
+  margin-top: 1em;
 }
 
 .location-icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: 100px;
   align-items: center;
-
+  margin-top: 2em;
 }
 
 .location-icons img {
-  width: 50px;
-  height: 50px;
-  margin: 30px;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 1em;
 }
-
-
 
 .location-icons div {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.5em;
   font-weight: bold;
-  color: white;
 }
 
 .services-grid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin: 2em 0;
 }
 
 .service-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 20px;
+  margin: 2em;
 }
 
 .service-box img {
-  width: 200px;
-  height: 200px;
+  width: 12.5em;
+  height: 12.5em;
   object-fit: cover;
 }
 
 .service-name {
-  margin-top: 10px;
-  font-size: 16px;
+  margin-top: 1em;
+  font-size: 1em;
   font-weight: bold;
   text-align: center;
 }
 
-.banner-title {
-  font-size: 100px;
-}
-
-.banner-description {
-  font-size: 30px;
-}
-
-p {
-  margin-top: 20px;
-  font-size: 16px;
-  color: white;
+@media only screen and (max-width: 600px) {
+  .location-icons,
+  .services-grid {
+    flex-direction: column;
+  }
 }

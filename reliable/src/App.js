@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Nav from "./components/Nav";
+import Nav from "./components/Nav/Nav.js";
 // import HomePage from "./components/HomePage.js";
 // import Contact from "./components/ContactForm/contact";
 // import Footer from "./components/FooterMenu/Footer.js";
@@ -7,12 +7,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import TestiMonials from "./components/Yelp/Testimonials/t.js"
 // import Header from "./components/Owners/owners.jsx"
 import Banner from "./components/Banner/Banner.js"
+import Section from "./components/Section/Section.js";
 
 function App() {
 	return (
 		<BrowserRouter>
-			{/* <Nav /> */}
+			<Nav />
 			<Banner />
+      <Section />
 
 			{/* <YelpReviews /> */}
 			{/* <HomePage /> */}

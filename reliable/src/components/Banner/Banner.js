@@ -51,7 +51,7 @@ const Banner = () => {
           <div className="service-name">Installation</div>
         </div>
         <div className="service-box">
-          <img src={process.env.PUBLIC_URL + '/plumbingrepair.jpg'} alt="Plumbing Repair" />
+          <img src={process.env.PUBLIC_URL + '/carpentry.png'} alt="Plumbing Repair" />
           <div className="service-name">Plumbing Repair</div>
         </div>
       </div>
