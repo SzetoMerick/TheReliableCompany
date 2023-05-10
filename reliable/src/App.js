@@ -11,7 +11,8 @@ import Section from "./components/Section/Section.js";
 
 function App() {
 	return (
-		<BrowserRouter>
+    <>
+
 			<Nav />
 			<Banner />
       <Section />
@@ -31,7 +32,8 @@ function App() {
 				</Routes> */}
 			</div>
 			{/* <Footer /> */}
-		</BrowserRouter>
+      </>
+
 	);
 }
 
