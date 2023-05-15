@@ -6,8 +6,10 @@ import Nav from "./components/Nav/Nav.js";
 // import YelpReviews from "./components/YelpReviews.js";
 // import TestiMonials from "./components/Yelp/Testimonials/t.js"
 // import Header from "./components/Owners/owners.jsx"
+import Dropdown from "./components/Dropdown/Dropdown.js";
 import Banner from "./components/Banner/Banner.js"
 import Section from "./components/Section/Section.js";
+import TestiMonials from "./components/Yelp/Testimonials/t.js"
 
 function App() {
 	return (
@@ -16,8 +18,9 @@ function App() {
 			<Nav />
 			<Banner />
       <Section />
+      <TestiMonials />
 
-			{/* <YelpReviews /> */}
+			<Dropdown />
 			{/* <HomePage /> */}
 			{/* <Contact /> */}
 			{/* <TestiMonials />

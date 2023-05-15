@@ -1,0 +1,118 @@
+.App {
+    padding-bottom: 2rem;
+    background-color: #f9f9f9;
+  }
+
+  .dropdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+
+  .dropdown-title {
+    grid-column: span 2;
+    text-align: center;
+  }
+
+  .dropdown-divider {
+    grid-column: span 2;
+    border: none;
+    border-top: 2px solid #00f;
+  }
+
+  .dropdown-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Add flex-wrap property to wrap items to a new line */
+  }
+
+  .dropdown-item {
+    margin-bottom: 1rem;
+    
+  }
+
+  .dropdown-item button {
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+  }
+
+  .dropdown-item button::after {
+    content: '▶';
+    transition: transform 0.3s ease;
+  }
+
+  .dropdown-item button:hover::after {
+    transform: rotate(90deg);
+  }
+
+  .dropdown-item button:hover {
+    color: #00f;
+  }
+
+  .dropdown-content {
+    max-height: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    margin-top: 1rem;
+    border-bottom: 1px solid #00f;
+    border-radius: 5px;
+    transition: max-height 0.6s ease-out, padding 0.6s ease-out;
+    max-width: 100%;
+  }
+  .dropdown-content p {
+    position: relative;
+    padding-left: 20px;
+    overflow-wrap: break-word; /* Add this line to wrap long sub-descriptions */
+    word-break: break-word; /* Add this line to wrap long sub-descriptions */
+  }
+  .dropdown-content p:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: #00f;
+    border-radius: 50%;
+  }
+  .dropdown-content ul {
+    margin-top: 0.5rem;
+    padding-left: 20px;
+    list-style-type: disc; /* Add bullet points to the list */
+    word-break: break-word; /* Wrap long sub-descriptions */
+  }
+
+  .dropdown-content ul li {
+    margin-bottom: 0.3rem;
+  }
+
+
+  .dropdown-content.show {
+    max-height: 500px;  /* adjust as needed */
+    padding: 10px; /* apply padding when content is shown */
+  }
+
+  @media (max-width: 768px) {
+    .dropdown {
+      grid-template-columns: 1fr;
+      width: 90%;
+    }
+  }
